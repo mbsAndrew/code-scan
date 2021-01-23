@@ -4,7 +4,7 @@
 
 I used React to build the app. Let me know what you think!
 
-`git clone https://github.com/mbsAndrew/code-scan`
+`git clone https://github.com/mbsAndrew/code-scan.git`
 
 `npm install`
 
