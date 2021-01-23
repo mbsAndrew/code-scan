@@ -2,6 +2,6 @@
 
 ## Setup
 
-`git clone https://github.com/mbsAndrew/code-scan
+```git clone https://github.com/mbsAndrew/code-scan
 npm install
-npm start`
+npm start```
