@@ -5,8 +5,7 @@ export const validationMsg = {
         }
         return false;
     },
-    module_type: (value) => {
-        console.log(value);
+    module_type: (value) => {        
         if (value < 0 || value > 2) {
             return "Please select a Module Type";
         }

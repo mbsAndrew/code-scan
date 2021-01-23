@@ -37,8 +37,7 @@ class Landing extends React.PureComponent {
             const fetchURL = this.buildFetchURL();
             fetch(fetchURL)
             .then(res => res.json())
-            .then(res => {
-                console.log(res);
+            .then(res => {                
                 if(res.errors.length > 0) {
                     alert("There was an error, please check your info");
                     this.setState({
